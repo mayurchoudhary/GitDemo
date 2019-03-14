@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suites]">
+  <listeners>
+    <listener class-name="com.codebind.Listeners"/>
+    <listener class-name="resources.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="Validating title in the page(failed)">
+    <classes>
+      <class name="com.codebind.ValidateTitle">
+        <methods>
+          <include name="basepagenavigation"/>
+          <include name="drivercloser"/>
+          <include name="intialize"/>
+        </methods>
+      </class> <!-- com.codebind.ValidateTitle -->
+    </classes>
+  </test> <!-- Validating title in the page(failed) -->
+  <test thread-count="5" name="Navigating to home page(failed)">
+    <classes>
+      <class name="com.codebind.Homepage">
+        <methods>
+          <include name="basepagenavigation"/>
+          <include name="intialize"/>
+          <include name="drivercloser"/>
+        </methods>
+      </class> <!-- com.codebind.Homepage -->
+    </classes>
+  </test> <!-- Navigating to home page(failed) -->
+  <test thread-count="5" name="Navigating to Aplava menu(failed)">
+    <classes>
+      <class name="com.codebind.ValidateAplavamenu">
+        <methods>
+          <include name="basepagenavigation"/>
+          <include name="initialize"/>
+          <include name="drivercloser"/>
+        </methods>
+      </class> <!-- com.codebind.ValidateAplavamenu -->
+    </classes>
+  </test> <!-- Navigating to Aplava menu(failed) -->
+</suite> <!-- Failed suite [Suites] -->

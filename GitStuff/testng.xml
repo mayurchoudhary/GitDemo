@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+<listener class-name="com.codebind.Listeners"/>
+<listener class-name="resources.ExtentReporterNG"/>
+</listeners>
+   <test name="Validating title in the page">
+    <classes>
+      <class name="com.codebind.ValidateTitle"/>
+      </classes>
+      </test>  
+      
+     <test name="Navigating to home page">
+       <classes>
+       <class name="com.codebind.Homepage"/>
+       </classes>
+       </test> 
+       
+        <!-- <test name="Navigating to Aplava menu">
+       <classes>
+        <class name="com.codebind.ValidateAplavamenu"/>
+        </classes>
+        
+   </test> 
+   <test name="Sign in with facebook">
+       <classes>
+        <class name="com.codebind.ValidateSigninwithFacebook"/>
+        </classes>
+           </test>  
+        
+   <test name="Sign in with google">
+       <classes>
+        <class name="com.codebind.ValidateSigninwithGoogle"/>
+        </classes>
+           </test>  -->
+           <test name="Registration on Aplava">
+       <classes>
+       <class name="com.codebind.AplavaRegister"/>
+       </classes>
+       </test>
+           
+</suite> 
+ 

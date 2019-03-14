@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 3, Errors: 0, Skipped: 6, Time elapsed: 2.381 s <<< FAILURE! - in TestSuite
+intialize(com.codebind.ValidateTitle)  Time elapsed: 1.566 s  <<< FAILURE!
+java.io.FileNotFoundException: C:\Users\mayur.choudhary\Desktop\Workspace1\maven-bind\src\main\java\resources (Access is denied)
+	at com.codebind.ValidateTitle.intialize(ValidateTitle.java:24)
+
+intialize(com.codebind.Homepage)  Time elapsed: 1.643 s  <<< FAILURE!
+java.io.FileNotFoundException: C:\Users\mayur.choudhary\Desktop\Workspace1\maven-bind\src\main\java\resources (Access is denied)
+	at com.codebind.Homepage.intialize(Homepage.java:26)
+
+initialize(com.codebind.ValidateAplavamenu)  Time elapsed: 1.667 s  <<< FAILURE!
+java.io.FileNotFoundException: C:\Users\mayur.choudhary\Desktop\Workspace1\maven-bind\src\main\java\resources (Access is denied)
+	at com.codebind.ValidateAplavamenu.initialize(ValidateAplavamenu.java:29)
+
